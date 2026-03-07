@@ -20,7 +20,7 @@ model = YOLO("best.pt")
 # -----------------------------
 # Camera Stream (Phone)
 # -----------------------------
-STREAM_URL = "http://10.47.188.99:8080/video"
+STREAM_URL = "http://10.3.2.76:8080/video"
 
 cap = cv2.VideoCapture(STREAM_URL, cv2.CAP_FFMPEG)
 
